@@ -17,9 +17,9 @@ To run this program, you need a C++ compiler installed on your system.
 # Installation
 Clone this repository to your local machine:
 
-`
+```
 git clone https://github.com/your-username/slot-machine-cpp.git
-`
+```
 
 Navigate to the directory containing the source code:
 
