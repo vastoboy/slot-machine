@@ -19,7 +19,7 @@ int i = 0;
 int j = 0;
 
 
-//check if the user has won any prize 
+//check if the user has won a prize 
 bool check_win() {
 
 	if (slot_items[0][0] == slot_items[0][1] && slot_items[0][1] == slot_items[0][2]) { //check if the all 3 values in the first row matches 
@@ -98,7 +98,7 @@ void run_game() {
 			system("CLS");
 
 
-			//shuffel the value withing the array
+			//shuffle the value withing the array
 			string temp = slot_items[i][j];
 			slot_items[i][j] = slot_items[rand_item1][rand_item2];
 			slot_items[rand_item1][rand_item2] = temp;
@@ -174,7 +174,7 @@ int main() {
 
 		if (key == 'S') {
 
-			run_game(); //start game 
+			run_game(); //starts game 
 		}
 	}
 	return 0;
