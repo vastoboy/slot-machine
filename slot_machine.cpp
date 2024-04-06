@@ -168,12 +168,9 @@ int main() {
 	
 	print_art();
 
-
 	while (key != 'S') { //start the game only when the user presses S
 		key = toupper(_getch());
-
 		if (key == 'S') {
-
 			run_game(); //starts game 
 		}
 	}
