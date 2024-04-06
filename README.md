@@ -28,6 +28,7 @@ cd slot-machine-cpp
 `
 
 Compile the program using your C++ compiler. For example, using g++:
+
 `
 g++ main.cpp -o slot_machine
 `
@@ -35,7 +36,9 @@ g++ main.cpp -o slot_machine
 # Usage
 Run the compiled executable:
 
+`
 ./slot_machine
-Follow the on-screen instructions to play the game.
+`
 
-Press 'S' to start spinning the reels, and 'C' to cash out.
+* Follow the on-screen instructions to play the game.
+* Press 'S' to start spinning the reels, and 'C' to cash out.
